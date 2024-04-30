@@ -64,4 +64,4 @@ Confirm transaction via MetaMask.
 
 ![alt](Images/BUY_10ETH_3.png)
 
-After successful interaction of 10 Ether, can see the amount of wei the crowdsale contract has raised. 
+After successful transaction of 10 Ether, the new amount of wei the crowdsale contract has raised has been updated to reflect this transaction. 
