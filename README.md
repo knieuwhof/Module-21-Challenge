@@ -16,30 +16,15 @@ Please find completed code for the KaseiCoin contract within the KaseiCoin.sol f
 
 ### Step 1: Create the KaseiCoin Token Contract
 
-Proof of successful compulation of the contract below. 
+Proof of successful compilation of the contract below. 
 
-![coinCompilation](Exe
-8. Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the `README.md` file for your GitHub repository.
+![coinCompilation](Images/KaseiCoin_compiled.png)
 
 ### Step 2: Create the KaseiCoin Crowdsale Contract
 
-In this subsection, you’ll define the KaseiCoin crowdsale contract. To do so, complete the following steps:
+Proof of successful compilation of the contract below. 
 
-1. Import the provided `KaseiCoinCrowdsale.sol` starter code into the Remix IDE.
-
-2. Have this contract inherit the following OpenZeppelin contracts:
-
-    * `Crowdsale`
-
-    * `MintedCrowdsale`
-
-3. In the `KaisenCoinCrowdsale` constructor, provide parameters for all the features of your crowdsale, such as `rate`, `wallet` (where to deposit the funds that the token raises), and `token`. Configure these parameters as you want for your KaseiCoin token.
-
-4. Compile the contract by using compiler version 0.5.0.
-
-5. Check for any errors, and debug them as needed.
-
-6. Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the `README.md` file for your GitHub repository.
+![crowdsaleCompilation](Images/KaseiCoin_compiled.png)
 
 ### Step 3: Create the KaseiCoin Deployer Contract
 
