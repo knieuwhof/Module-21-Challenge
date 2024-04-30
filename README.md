@@ -54,11 +54,11 @@ Proof of being able to interact with contract below.
 
 Test transaction, value of 10 Ether.
 
-![Transaction](Images/BUY_10ETH_1.png)
+![Transaction](Images/Buy_10ETH_1.png)
 
 Confirm transaction via MetaMask. 
 
-![MetaMaskConfirmation](Images/BUY_10ETH_2.png)
+![MetaMaskConfirmation](Images/Buy_10ETH_2.png)
 
 4. Review the total supply of minted tokens and the amount of wei that the crowdsale contract has raised.
 
