@@ -16,65 +16,31 @@ Please find completed code for the KaseiCoin contract within the KaseiCoin.sol f
 
 ### Step 1: Create the KaseiCoin Token Contract
 
-Proof of successful compilation of the contract below. 
+Proof of successful compilation of the KaseCoin contract below. 
 
 ![coinCompilation](Images/KaseiCoin_compiled.png)
 
 ### Step 2: Create the KaseiCoin Crowdsale Contract
 
-Proof of successful compilation of the contract below. 
+Proof of successful compilation of the KaseiCoin Crowdsale contract below. 
 
-![crowdsaleCompilation](Images/KaseiCoin_compiled.png)
+![crowdsaleCompilation](Images/KaseiCoinCrowdsale_complied.png)
 
 ### Step 3: Create the KaseiCoin Deployer Contract
 
-In this subsection, you’ll create the KaseiCoin deployer contract. Start by uncommenting the `KaseiCoinCrowdsaleDeployer` contract in the provided `KaseiCoinCrowdsale.sol` starter code.
+Proof of successful compilation of the KaseiCoin Deployer contract below. 
 
-Next, in the `KaseiCoinCrowdsaleDeployer` contract, you’ll add variables to store the addresses of the `KaseiCoin` and `KaseiCoinCrowdsale` contracts, which this contract will deploy. Finally, you’ll complete the `KaseiCoinCrowdsaleDeployer` contract. To do so, complete the following steps:
-
-1. Create an `address public` variable named `kasei_token_address`, which will store the `KaseiCoin` address once that contract has been deployed.
-
-2. Create an `address public` variable named `kasei_crowdsale_address`, which will store the `KaseiCoinCrowdsale` address once that contract has been deployed.
-
-3. Add the following parameters to the constructor for the `KaseiCoinCrowdsaleDeployer` contract: `name`, `symbol`, and `wallet`.
-
-4. Inside of the constructor body (that is, between the braces), complete the following steps:
-
-    * Create a new instance of the `KaseiCoinToken` contract.
-
-    * Assign the address of the KaseiCoin token contract to the `kasei_token_address` variable. (This will allow you to easily fetch the token's address later.)
-
-    * Create a new instance of the `KaseiCoinCrowdsale` contract by using the following parameters:
-
-      * The `rate` parameter: Set `rate` equal to 1 to maintain parity with ether.
-
-      * The `wallet` parameter: Pass in `wallet` from the main constructor. This is the wallet that will get paid all the ether that the crowdsale contract raises.
-
-      * The `token` parameter: Make this the `token` variable where `KaseiCoin` is stored.
-
-    * Assign the address of the KaseiCoin crowdsale contract to the `kasei_crowdsale_address` variable. (This will allow you to easily fetch the crowdsale’s address later.)
-
-    * Set the `KaseiCoinCrowdsale` contract as a minter.
-
-    * Have the `KaseiCoinCrowdsaleDeployer` renounce its minter role.
-
-5. Compile the contract by using compiler version 0.5.0.
-
-6. Check for any errors, and debug them as needed.
-
-7. Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the `README.md` file for your Git repository.
+![crowdsaleCompilation](Images/KaseiCoinCrowdsaleDeployer_complied.png)
 
 ### Step 4: Deploy and Test the Crowdsale on a Local Blockchain
 
-In this subsection, you’ll deploy the crowdsale to a local blockchain. You’ll then perform a real-world, preproduction test of your crowdsale. To do so, complete the following steps:
-
-> **Important:** Record a short video or take screenshots that illustrate the following steps as evidence of your deployed crowdsale contract.
-
 1. Deploy the crowdsale to a local blockchain by using Remix, MetaMask, and Ganache.
 
-2. Test the functionality of the crowdsale by using test accounts to buy new tokens and then checking the balances of those accounts.
+![crowdsaleCompilation](Images/KaseiCoinCrowdsaleDeployer_complied.png)
 
-3. Review the total supply of minted tokens and the amount of wei that the crowdsale contract has raised.
+3. Test the functionality of the crowdsale by using test accounts to buy new tokens and then checking the balances of those accounts.
+
+4. Review the total supply of minted tokens and the amount of wei that the crowdsale contract has raised.
 
 ### Optional: Extend the Crowdsale Contract by Using OpenZeppelin
 
