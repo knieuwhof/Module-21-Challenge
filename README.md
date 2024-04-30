@@ -10,62 +10,15 @@ KaseiCoin will be a fungible token that’s ERC-20 compliant. You’ll launch a 
 
 ## Files
 
-Download the following files to help you get started:
+Please find completed code for the KaseiCoin contract within the KaseiCoin.sol file, and the Crowdsale and Deployer contracts in the KaseiCoinCrowdsale.sol file.
 
-[KaseiCoin.sol](./Starter_Code/KaseiCoin.sol)
-
-[KaseiCoinCrowdsale.sol](./Starter_Code/KaseiCoinCrowdsale.com)
-
-## Instructions
-
-The steps for this assignment are divided into the following subsections:
-
-1. Create the KaseiCoin Token Contract
-
-2. Create the KaseiCoin Crowdsale Contract
-
-3. Create the KaseiCoin Deployer Contract
-
-4. Deploy and Test the Crowdsale on a Local Blockchain
-
-5. Optional: Extend the Crowdsale Contract by Using OpenZeppelin
-
-    > **Note:** You can choose whether to complete the optional section. It’s designed to further your professional growth and development but won’t be graded as part of this assignment. If you choose to complete this section, you’ll use OpenZeppelin to extend the functionality of your crowdsale contract by adding time restrictions, refund capabilities, and a cap for the number of tokens that can be created. If you have any questions about how to complete the optional section, please reach out to your instructional team.
-
-Note that the provided starter files for this homework assignment contain a `pragma` statement for Solidity version 0.5.0. You’ll use the starter files to complete the steps in the subsections.
-
-In the subsections, you’ll create a fungible token that’s ERC-20 compliant. This token will be minted by using a `Crowdsale` contract from the OpenZeppelin Solidity library.
-
-The crowdsale contract that you create will manage the entire crowdsale process. This process will allow users to send ether to the contract and receive KaseiCoin tokens, or **KAI**, in return. Your contract will automatically mint the tokens and distribute them to a buyer in one transaction.
-
-Note that you’ll record a short video or animated GIF or take several screenshots that show the deployed contract in action.
-
-In the `README.md` file of your GitHub repository for this homework assignment, you’ll create a section named Evaluation Evidence. In this section, you’ll share screenshots of your work from each subsection of the assignment.
+## Evaluation Evidence
 
 ### Step 1: Create the KaseiCoin Token Contract
 
-In this subsection, you’ll create a smart contract that defines KaseiCoin as an ERC-20 token. To do so, complete the following steps:
+Proof of successful compulation of the contract below. 
 
-1. Import the provided `KaseiCoin.sol` starter file into the Remix IDE.
-
-2. Import the following contracts from the OpenZeppelin library:
-
-    * `ERC20`
-
-    * `ERC20Detailed`
-
-    * `ERC20Mintable`
-
-3. Define a contract for the KaseiCoin token, and name it `KaseiCoin`. Have the contract inherit the three contracts that you just imported from OpenZeppelin.
-
-4. Inside your `KaseiCoin` contract, add a constructor with the following parameters: `name`, `symbol`, and `initial_supply`.
-
-5. As part of your constructor definition, add a call to the constructor of the `ERC20Detailed` contract, passing the parameters `name`, `symbol`, and `18`. (Recall that 18 is the value for the `decimals` parameter.)
-
-6. Compile the contract by using compiler version 0.5.0.
-
-7. Check for any errors, and debug them as needed.
-
+![coinCompilation](Exe
 8. Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the `README.md` file for your GitHub repository.
 
 ### Step 2: Create the KaseiCoin Crowdsale Contract
